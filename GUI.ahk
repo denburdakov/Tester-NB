@@ -1,8 +1,7 @@
 ﻿SetWorkingDir %A_ScriptDir%	
 Gui Tester: New, +hwndGUI
-; Menu, tray, NoStandard
+Menu, tray, NoStandard
 Menu Tray, Add, Перезайти, Reload
-; Menu Tray, Add, Открыть, Open
 Menu Tray, Add, Выход, TesterGuiClose
 
 
