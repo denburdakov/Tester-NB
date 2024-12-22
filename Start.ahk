@@ -1,15 +1,9 @@
 ﻿#NoEnv  
 #Warn
-
+SendMode Input
 SetWorkingDir %A_ScriptDir%
-#Include GUI.ahk
-#Include Commands.ahk
-#Include Menu.ahk
-
-
-; TesterGuiClose:
-	; ExitApp
-; Return
+#Include %A_Temp%\Tester\GUI.ahk
+#Include %A_Temp%\Tester\Commands.ahk
 
 
 

@@ -1,17 +1,10 @@
 ﻿#SingleInstance force
-;SetWorkingDir %A_ScriptDir%
-#ErrorStdOut
+#Include %A_ScriptDir%/Import.ahk
+
+
 
 Gui, Add, ListView, vMobList gMobList x20 y35 w775 h130 -Multi -AltSubmit +Count  Grid NoSortHdr , Моб|Ид|Названия
 LV_ModifyCol(2, "35 Fload") ; Подгоняем размер столбцов под их содержимое.
-
-Mobs := A_ScriptDir "/ListView/test/Mobs.txt" ; Переменная
-
-
-
-
-
-
 
 Loop, Read, % Mobs ; Получаем список имен файлов из папки и помещаем их в ListView:
 {

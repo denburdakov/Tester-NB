@@ -183,7 +183,7 @@ Gui Add, Text, x681 y304 w125 h23 +0x200 , Святилище Йети
 Gui Add, Text, x681 y328 w125 h23 +0x200 , Перевалочный Пункт
 Gui Add, Text, x681 y352 w125 h23 +0x200 , Храм Живых Мертвецов
 Gui Tab,2 
-#Include ListView/LV.ahk ; Импортирует файл
+#Include %A_ScriptDir%\ListView\LV.ahk ; Импортирует файл
 
 Gui Tab
 
